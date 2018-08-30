@@ -1,0 +1,15 @@
+<div class="card text-center" style="width: 18rem;">
+  <div class="card-body">
+  </div>
+  <img class="img" src="../../assets/images/{{plat.image}}"
+   alt="Card image cap">
+  
+    <h5 class="card-title">{{plat.nom}}</h5>
+    <p class="card-text">{{plat.description}}</p>
+    <p class="card-text">{{plat.prix}}</p>
+    
+    <a href="['platDetail', plat.id]" class="btn btn-primary">Go somewhere</a>
+    
+     <a (click)="onDelete()" class="btn btn-primary">Supprimer</a>
+   
+  </div>

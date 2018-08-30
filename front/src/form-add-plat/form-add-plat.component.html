@@ -1,0 +1,12 @@
+<form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+        <label>Nom : </label>
+        <input [(ngModel)]='plat.nom' name="nom">
+        <label>Description : </label>
+        <input [(ngModel)]='plat.description' name="description">
+        <label>Prix : </label>
+        <input [(ngModel)]='plat.prix' name="prix">
+        <label>image : </label>
+        <input [(ngModel)]='plat.image' name="image">
+        <button type="submit">Envoyer le menu</button>
+      
+      </form>
